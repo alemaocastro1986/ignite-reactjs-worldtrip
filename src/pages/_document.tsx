@@ -22,10 +22,16 @@ export default class MyDocument extends Document {
             crossOrigin="true"
           />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+
           <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
             rel="stylesheet"
-          ></link>
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <body>
           <Main />
